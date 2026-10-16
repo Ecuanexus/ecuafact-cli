@@ -5,7 +5,7 @@
 > [!IMPORTANT]
 > Versión preliminar (`preview`): puede cambiar sin aviso. Pruébala primero en el entorno `sandbox`.
 
-Este repositorio solo publica las versiones descargables. La documentación está en <https://docsapi.ecuafact.com/>.
+Este repositorio solo publica las versiones descargables. La documentación completa del CLI está en <https://docsapi.ecuafact.com/v1/guias/cli>.
 
 ## Instalación
 
@@ -20,8 +20,8 @@ Este repositorio solo publica las versiones descargables. La documentación est�
 ## Primeros pasos
 
 ```bash
-ecuafact --entorno sandbox login     # pide tu API Key sin mostrarla y la guarda en el almacen del sistema
-ecuafact --entorno sandbox doctor    # revisa conexion, API Key, IP registrada y cupo
+ecuafact --entorno sandbox login     # pide tu API Key sin mostrarla y la guarda en el almacén de credenciales del sistema
+ecuafact --entorno sandbox doctor    # revisa conexión, API Key, IP registrada y cupo
 ecuafact ayuda inicio
 ecuafact <comando> --help
 ```
